@@ -1,0 +1,52 @@
+##############################################################
+#
+# Xilinx Core Generator version K.39
+# Date: Wed Nov 26 04:33:37 2014
+#
+##############################################################
+#
+#  This file contains the customisation parameters for a
+#  Xilinx CORE Generator IP GUI. It is strongly recommended
+#  that you do not manually alter this file as it may cause
+#  unexpected and unsupported behavior.
+#
+##############################################################
+#
+# BEGIN Project Options
+SET addpads = False
+SET asysymbol = True
+SET busformat = BusFormatAngleBracketNotRipped
+SET createndf = False
+SET designentry = VHDL
+SET device = xc2v6000
+SET devicefamily = virtex2
+SET flowvendor = Foundation_iSE
+SET formalverification = False
+SET foundationsym = False
+SET implementationfiletype = Ngc
+SET package = bf957
+SET removerpms = False
+SET simulationfiles = Structural
+SET speedgrade = -4
+SET verilogsim = False
+SET vhdlsim = True
+# END Project Options
+# BEGIN Select
+SELECT Pipelined_Divider family Xilinx,_Inc. 3.0
+# END Select
+# BEGIN Parameters
+CSET component_name=test_divider
+CSET divclk_sel=1_Clock
+CSET dividend_width=16
+CSET divisor_width=16
+CSET fractional_b=Integer
+CSET fractional_width=16
+CSET has_aclr=false
+CSET has_ce=false
+CSET has_sclr=false
+CSET signed_b=Unsigned
+CSET sync_enable=CE_Overrides_SCLR
+# END Parameters
+GENERATE
+# CRC: 82994dab
+

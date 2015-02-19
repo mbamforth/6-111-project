@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RootFolder label="COREGEN" treetype="folder" language="COREGEN">
+	<Folder label="VERILOG Component Instantiation" treetype="folder">
+		<Template label="test_divider" treetype="template">
+ 
+ 
+// The following must be inserted into your Verilog file for this
+// core to be instantiated. Change the instance name and port connections
+// (in parentheses) to your own signal names.
+ 
+test_divider YourInstanceName (
+    .dividend(dividend), // Bus [15 : 0] 
+    .divisor(divisor), // Bus [15 : 0] 
+    .quot(quot), // Bus [15 : 0] 
+    .remd(remd), // Bus [15 : 0] 
+    .clk(clk),
+    .rfd(rfd));
+
+ 
+		</Template>
+		<Template label="pan_divider" treetype="template">
+ 
+ 
+// The following must be inserted into your Verilog file for this
+// core to be instantiated. Change the instance name and port connections
+// (in parentheses) to your own signal names.
+ 
+pan_divider YourInstanceName (
+    .dividend(dividend), // Bus [11 : 0] 
+    .divisor(divisor), // Bus [11 : 0] 
+    .quot(quot), // Bus [11 : 0] 
+    .remd(remd), // Bus [7 : 0] 
+    .clk(clk),
+    .rfd(rfd));
+
+ 
+		</Template>
+		<Template label="tilt_sqrt" treetype="template">
+ 
+ 
+// The following must be inserted into your Verilog file for this
+// core to be instantiated. Change the instance name and port connections
+// (in parentheses) to your own signal names.
+ 
+tilt_sqrt YourInstanceName (
+    .x_in(x_in), // Bus [21 : 0] 
+    .x_out(x_out), // Bus [11 : 0] 
+    .rdy(rdy),
+    .clk(clk));
+
+ 
+		</Template>
+		<Template label="tilt_div" treetype="template">
+ 
+ 
+// The following must be inserted into your Verilog file for this
+// core to be instantiated. Change the instance name and port connections
+// (in parentheses) to your own signal names.
+ 
+tilt_div YourInstanceName (
+    .dividend(dividend), // Bus [11 : 0] 
+    .divisor(divisor), // Bus [11 : 0] 
+    .quot(quot), // Bus [11 : 0] 
+    .remd(remd), // Bus [11 : 0] 
+    .clk(clk),
+    .rfd(rfd));
+
+ 
+		</Template>
+		<Template label="tilt_divider" treetype="template">
+ 
+ 
+// The following must be inserted into your Verilog file for this
+// core to be instantiated. Change the instance name and port connections
+// (in parentheses) to your own signal names.
+ 
+tilt_divider YourInstanceName (
+    .dividend(dividend), // Bus [11 : 0] 
+    .divisor(divisor), // Bus [11 : 0] 
+    .quot(quot), // Bus [11 : 0] 
+    .remd(remd), // Bus [7 : 0] 
+    .clk(clk),
+    .rfd(rfd));
+
+ 
+		</Template>
+		<Template label="arctan_lookup" treetype="template">
+		</Template>
+		<Template label="arctan" treetype="template">
+ 
+ 
+// The following must be inserted into your Verilog file for this
+// core to be instantiated. Change the instance name and port connections
+// (in parentheses) to your own signal names.
+ 
+arctan YourInstanceName (
+    .x_in(x_in), // Bus [9 : 0] 
+    .y_in(y_in), // Bus [9 : 0] 
+    .phase_out(phase_out), // Bus [9 : 0] 
+    .rdy(rdy),
+    .clk(clk));
+
+ 
+		</Template>
+		<Template label="arctan_tilt" treetype="template">
+		</Template>
+		<Template label="arctan_pan" treetype="template">
+ 
+ 
+// The following must be inserted into your Verilog file for this
+// core to be instantiated. Change the instance name and port connections
+// (in parentheses) to your own signal names.
+ 
+arctan_pan YourInstanceName (
+    .x_in(x_in), // Bus [10 : 0] 
+    .y_in(y_in), // Bus [10 : 0] 
+    .phase_out(phase_out), // Bus [7 : 0] 
+    .rdy(rdy),
+    .clk(clk));
+
+ 
+		</Template>
+		<Template label="range_div" treetype="template">
+		</Template>
+		<Template label="range_divider" treetype="template">
+ 
+ 
+// The following must be inserted into your Verilog file for this
+// core to be instantiated. Change the instance name and port connections
+// (in parentheses) to your own signal names.
+ 
+range_divider YourInstanceName (
+    .dividend(dividend), // Bus [15 : 0] 
+    .divisor(divisor), // Bus [6 : 0] 
+    .quot(quot), // Bus [15 : 0] 
+    .remd(remd), // Bus [6 : 0] 
+    .clk(clk),
+    .rfd(rfd));
+
+ 
+		</Template>
+		<Template label="hsv_divider" treetype="template">
+ 
+ 
+// The following must be inserted into your Verilog file for this
+// core to be instantiated. Change the instance name and port connections
+// (in parentheses) to your own signal names.
+ 
+hsv_divider YourInstanceName (
+    .dividend(dividend), // Bus [15 : 0] 
+    .divisor(divisor), // Bus [15 : 0] 
+    .quot(quot), // Bus [15 : 0] 
+    .remd(remd), // Bus [15 : 0] 
+    .clk(clk),
+    .rfd(rfd));
+
+ 
+		</Template>
+		<Template label="arctan_tilt_new" treetype="template">
+ 
+ 
+// The following must be inserted into your Verilog file for this
+// core to be instantiated. Change the instance name and port connections
+// (in parentheses) to your own signal names.
+ 
+arctan_tilt_new YourInstanceName (
+    .x_in(x_in), // Bus [9 : 0] 
+    .y_in(y_in), // Bus [9 : 0] 
+    .phase_out(phase_out), // Bus [9 : 0] 
+    .rdy(rdy),
+    .clk(clk));
+
+ 
+		</Template>
+	</Folder>
+	<Folder label="VHDL Component Instantiation" treetype="folder">
+		<Template label="test_divider" treetype="template">
+ 
+ 
+-- The following code must appear in the VHDL architecture header:
+ 
+component test_divider
+    port (
+    dividend: IN std_logic_VECTOR(15 downto 0);
+    divisor: IN std_logic_VECTOR(15 downto 0);
+    quot: OUT std_logic_VECTOR(15 downto 0);
+    remd: OUT std_logic_VECTOR(15 downto 0);
+    clk: IN std_logic;
+    rfd: OUT std_logic);
+end component;
+
+
+ 
+-------------------------------------------------------------
+ 
+-- The following code must appear in the VHDL architecture body.
+-- Substitute your own instance name and net names.
+ 
+your_instance_name : test_divider
+        port map (
+            dividend =&gt; dividend,
+            divisor =&gt; divisor,
+            quot =&gt; quot,
+            remd =&gt; remd,
+            clk =&gt; clk,
+            rfd =&gt; rfd);
+ 
+		</Template>
+		<Template label="pan_divider" treetype="template">
+ 
+ 
+-- The following code must appear in the VHDL architecture header:
+ 
+component pan_divider
+    port (
+    dividend: IN std_logic_VECTOR(11 downto 0);
+    divisor: IN std_logic_VECTOR(11 downto 0);
+    quot: OUT std_logic_VECTOR(11 downto 0);
+    remd: OUT std_logic_VECTOR(7 downto 0);
+    clk: IN std_logic;
+    rfd: OUT std_logic);
+end component;
+
+
+ 
+-------------------------------------------------------------
+ 
+-- The following code must appear in the VHDL architecture body.
+-- Substitute your own instance name and net names.
+ 
+your_instance_name : pan_divider
+        port map (
+            dividend =&gt; dividend,
+            divisor =&gt; divisor,
+            quot =&gt; quot,
+            remd =&gt; remd,
+            clk =&gt; clk,
+            rfd =&gt; rfd);
+ 
+		</Template>
+		<Template label="tilt_sqrt" treetype="template">
+ 
+ 
+-- The following code must appear in the VHDL architecture header:
+ 
+component tilt_sqrt
+    port (
+    x_in: IN std_logic_VECTOR(21 downto 0);
+    x_out: OUT std_logic_VECTOR(11 downto 0);
+    rdy: OUT std_logic;
+    clk: IN std_logic);
+end component;
+
+
+ 
+-------------------------------------------------------------
+ 
+-- The following code must appear in the VHDL architecture body.
+-- Substitute your own instance name and net names.
+ 
+your_instance_name : tilt_sqrt
+        port map (
+            x_in =&gt; x_in,
+            x_out =&gt; x_out,
+            rdy =&gt; rdy,
+            clk =&gt; clk);
+ 
+		</Template>
+		<Template label="tilt_div" treetype="template">
+ 
+ 
+-- The following code must appear in the VHDL architecture header:
+ 
+component tilt_div
+    port (
+    dividend: IN std_logic_VECTOR(11 downto 0);
+    divisor: IN std_logic_VECTOR(11 downto 0);
+    quot: OUT std_logic_VECTOR(11 downto 0);
+    remd: OUT std_logic_VECTOR(11 downto 0);
+    clk: IN std_logic;
+    rfd: OUT std_logic);
+end component;
+
+
+ 
+-------------------------------------------------------------
+ 
+-- The following code must appear in the VHDL architecture body.
+-- Substitute your own instance name and net names.
+ 
+your_instance_name : tilt_div
+        port map (
+            dividend =&gt; dividend,
+            divisor =&gt; divisor,
+            quot =&gt; quot,
+            remd =&gt; remd,
+            clk =&gt; clk,
+            rfd =&gt; rfd);
+ 
+		</Template>
+		<Template label="tilt_divider" treetype="template">
+ 
+ 
+-- The following code must appear in the VHDL architecture header:
+ 
+component tilt_divider
+    port (
+    dividend: IN std_logic_VECTOR(11 downto 0);
+    divisor: IN std_logic_VECTOR(11 downto 0);
+    quot: OUT std_logic_VECTOR(11 downto 0);
+    remd: OUT std_logic_VECTOR(7 downto 0);
+    clk: IN std_logic;
+    rfd: OUT std_logic);
+end component;
+
+
+ 
+-------------------------------------------------------------
+ 
+-- The following code must appear in the VHDL architecture body.
+-- Substitute your own instance name and net names.
+ 
+your_instance_name : tilt_divider
+        port map (
+            dividend =&gt; dividend,
+            divisor =&gt; divisor,
+            quot =&gt; quot,
+            remd =&gt; remd,
+            clk =&gt; clk,
+            rfd =&gt; rfd);
+ 
+		</Template>
+		<Template label="arctan_lookup" treetype="template">
+		</Template>
+		<Template label="arctan" treetype="template">
+		</Template>
+		<Template label="arctan_tilt" treetype="template">
+ 
+ 
+-- The following code must appear in the VHDL architecture header:
+ 
+component arctan_tilt
+    port (
+    x_in: IN std_logic_VECTOR(9 downto 0);
+    y_in: IN std_logic_VECTOR(9 downto 0);
+    phase_out: OUT std_logic_VECTOR(9 downto 0);
+    rdy: OUT std_logic;
+    clk: IN std_logic);
+end component;
+
+
+ 
+-------------------------------------------------------------
+ 
+-- The following code must appear in the VHDL architecture body.
+-- Substitute your own instance name and net names.
+ 
+your_instance_name : arctan_tilt
+        port map (
+            x_in =&gt; x_in,
+            y_in =&gt; y_in,
+            phase_out =&gt; phase_out,
+            rdy =&gt; rdy,
+            clk =&gt; clk);
+ 
+		</Template>
+		<Template label="arctan_pan" treetype="template">
+ 
+ 
+-- The following code must appear in the VHDL architecture header:
+ 
+component arctan_pan
+    port (
+    x_in: IN std_logic_VECTOR(10 downto 0);
+    y_in: IN std_logic_VECTOR(10 downto 0);
+    phase_out: OUT std_logic_VECTOR(7 downto 0);
+    rdy: OUT std_logic;
+    clk: IN std_logic);
+end component;
+
+
+ 
+-------------------------------------------------------------
+ 
+-- The following code must appear in the VHDL architecture body.
+-- Substitute your own instance name and net names.
+ 
+your_instance_name : arctan_pan
+        port map (
+            x_in =&gt; x_in,
+            y_in =&gt; y_in,
+            phase_out =&gt; phase_out,
+            rdy =&gt; rdy,
+            clk =&gt; clk);
+ 
+		</Template>
+		<Template label="range_div" treetype="template">
+		</Template>
+		<Template label="range_divider" treetype="template">
+ 
+ 
+-- The following code must appear in the VHDL architecture header:
+ 
+component range_divider
+    port (
+    dividend: IN std_logic_VECTOR(15 downto 0);
+    divisor: IN std_logic_VECTOR(6 downto 0);
+    quot: OUT std_logic_VECTOR(15 downto 0);
+    remd: OUT std_logic_VECTOR(6 downto 0);
+    clk: IN std_logic;
+    rfd: OUT std_logic);
+end component;
+
+
+ 
+-------------------------------------------------------------
+ 
+-- The following code must appear in the VHDL architecture body.
+-- Substitute your own instance name and net names.
+ 
+your_instance_name : range_divider
+        port map (
+            dividend =&gt; dividend,
+            divisor =&gt; divisor,
+            quot =&gt; quot,
+            remd =&gt; remd,
+            clk =&gt; clk,
+            rfd =&gt; rfd);
+ 
+		</Template>
+		<Template label="hsv_divider" treetype="template">
+ 
+ 
+-- The following code must appear in the VHDL architecture header:
+ 
+component hsv_divider
+    port (
+    dividend: IN std_logic_VECTOR(15 downto 0);
+    divisor: IN std_logic_VECTOR(15 downto 0);
+    quot: OUT std_logic_VECTOR(15 downto 0);
+    remd: OUT std_logic_VECTOR(15 downto 0);
+    clk: IN std_logic;
+    rfd: OUT std_logic);
+end component;
+
+
+ 
+-------------------------------------------------------------
+ 
+-- The following code must appear in the VHDL architecture body.
+-- Substitute your own instance name and net names.
+ 
+your_instance_name : hsv_divider
+        port map (
+            dividend =&gt; dividend,
+            divisor =&gt; divisor,
+            quot =&gt; quot,
+            remd =&gt; remd,
+            clk =&gt; clk,
+            rfd =&gt; rfd);
+ 
+		</Template>
+		<Template label="arctan_tilt_new" treetype="template">
+ 
+ 
+-- The following code must appear in the VHDL architecture header:
+ 
+component arctan_tilt_new
+    port (
+    x_in: IN std_logic_VECTOR(9 downto 0);
+    y_in: IN std_logic_VECTOR(9 downto 0);
+    phase_out: OUT std_logic_VECTOR(9 downto 0);
+    rdy: OUT std_logic;
+    clk: IN std_logic);
+end component;
+
+
+ 
+-------------------------------------------------------------
+ 
+-- The following code must appear in the VHDL architecture body.
+-- Substitute your own instance name and net names.
+ 
+your_instance_name : arctan_tilt_new
+        port map (
+            x_in =&gt; x_in,
+            y_in =&gt; y_in,
+            phase_out =&gt; phase_out,
+            rdy =&gt; rdy,
+            clk =&gt; clk);
+ 
+		</Template>
+	</Folder>
+</RootFolder>

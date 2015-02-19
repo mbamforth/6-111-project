@@ -1,0 +1,33 @@
+Version 4
+SymbolType BLOCK
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RECTANGLE Normal 32 0 352 288
+PIN 0 48  LEFT 36
+PINATTR PinName x_in[21:0]
+PINATTR Polarity IN
+LINE Wide 0 48 32 48
+PIN 0 240  LEFT 36
+PINATTR PinName clk
+PINATTR Polarity IN
+LINE Normal 0 240 32 240
+PIN 384 48  RIGHT 36
+PINATTR PinName x_out[11:0]
+PINATTR Polarity OUT
+LINE Wide 352 48 384 48
+PIN 384 208  RIGHT 36
+PINATTR PinName rdy
+PINATTR Polarity OUT
+LINE Normal 352 208 384 208

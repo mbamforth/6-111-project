@@ -1,0 +1,833 @@
+Release 10.1.03 ngdbuild K.39 (lin64)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+
+Command Line:
+/afs/csail.mit.edu/proj/redsocs/Xilinx10.1/ISE/bin/lin64/unwrapped/ngdbuild -ise
+/afs/athena.mit.edu/user/m/i/miren/Desktop/6.111/final
+project/tracking_dmx/tracking_DMX.ise -intstyle ise -dd _ngo -aul -nt timestamp
+-i -p xc2v6000-bf957-4 labkit.ngc labkit.ngd
+
+Reading NGO file "/afs/athena.mit.edu/user/m/i/miren/Desktop/6.111/final
+project/tracking_dmx/labkit.ngc" ...
+Loading design module "/afs/athena.mit.edu/user/m/i/miren/Desktop/6.111/final
+project/tracking_dmx/hsv_divider.ngc"...
+Loading design module "/afs/athena.mit.edu/user/m/i/miren/Desktop/6.111/final
+project/tracking_dmx/tilt_sqrt.ngc"...
+Loading design module "/afs/athena.mit.edu/user/m/i/miren/Desktop/6.111/final
+project/tracking_dmx/arctan_tilt_new.ngc"...
+Loading design module "/afs/athena.mit.edu/user/m/i/miren/Desktop/6.111/final
+project/tracking_dmx/arctan.ngc"...
+Loading design module "/afs/athena.mit.edu/user/m/i/miren/Desktop/6.111/final
+project/tracking_dmx/tilt_divider.ngc"...
+Loading design module "/afs/athena.mit.edu/user/m/i/miren/Desktop/6.111/final
+project/tracking_dmx/pan_divider.ngc"...
+Reading in constraint information from 'labkit.ucf'...
+Gathering constraint information from source properties...
+Done.
+INFO:NgdBuild:889 - Pad net 'rc/ddr_reg1/Q' is not connected to an external port
+   in this design.  A new port 'Q' has been added and is connected to this
+   signal.
+
+Resolving constraint associations...
+Checking Constraint Associations...
+INFO:ConstraintSystem:59 - Constraint <NET "flash_address<24>" LOC="al7";>
+   [labkit.ucf(335)]: NET "flash_address<24>" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+Done...
+Checking Partitions ...
+
+Checking expanded design ...
+WARNING:NgdBuild:440 - FF primitive 'find_hue/hue_div2/BU181' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'find_hue/hue_div2/BU360' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'find_hue/hue_div2/BU542' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'find_hue/hue_div2/BU724' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'find_hue/hue_div2/BU906' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'find_hue/hue_div2/BU1088' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'find_hue/hue_div2/BU1270' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'find_hue/hue_div2/BU1452' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'find_hue/hue_div2/BU1634' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'find_hue/hue_div2/BU1816' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'find_hue/hue_div2/BU1998' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'find_hue/hue_div2/BU2180' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'find_hue/hue_div2/BU2362' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'find_hue/hue_div2/BU2544' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'find_hue/hue_div2/BU2726' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'find_hue/hue_div2/BU2908' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'find_hue/hue_div2/BU3106' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'find_hue/hue_div1/BU181' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'find_hue/hue_div1/BU360' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'find_hue/hue_div1/BU542' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'find_hue/hue_div1/BU724' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'find_hue/hue_div1/BU906' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'find_hue/hue_div1/BU1088' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'find_hue/hue_div1/BU1270' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'find_hue/hue_div1/BU1452' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'find_hue/hue_div1/BU1634' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'find_hue/hue_div1/BU1816' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'find_hue/hue_div1/BU1998' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'find_hue/hue_div1/BU2180' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'find_hue/hue_div1/BU2362' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'find_hue/hue_div1/BU2544' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'find_hue/hue_div1/BU2726' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'find_hue/hue_div1/BU2908' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'find_hue/hue_div1/BU3106' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_sqrt/my_tilt_sqrt/BU226' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_sqrt/my_tilt_sqrt/BU228' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_sqrt/my_tilt_sqrt/BU435' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_sqrt/my_tilt_sqrt/BU437' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_sqrt/my_tilt_sqrt/BU649' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_sqrt/my_tilt_sqrt/BU651' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_sqrt/my_tilt_sqrt/BU850' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_sqrt/my_tilt_sqrt/BU852' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_sqrt/my_tilt_sqrt/BU1072' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_sqrt/my_tilt_sqrt/BU1074' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_sqrt/my_tilt_sqrt/BU1265' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_sqrt/my_tilt_sqrt/BU1267' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_sqrt/my_tilt_sqrt/BU1495' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_sqrt/my_tilt_sqrt/BU1497' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_sqrt/my_tilt_sqrt/BU1680' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_sqrt/my_tilt_sqrt/BU1682' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_sqrt/my_tilt_sqrt/BU1918' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_sqrt/my_tilt_sqrt/BU1920' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_sqrt/my_tilt_sqrt/BU2103' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_sqrt/my_tilt_sqrt/BU2105' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_sqrt/my_tilt_sqrt/BU2349' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_sqrt/my_tilt_sqrt/BU2351' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_sqrt/my_tilt_sqrt/BU2574' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_sqrt/my_tilt_sqrt/BU2580' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_sqrt/my_tilt_sqrt/BU2496' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_sqrt/my_tilt_sqrt/BU2498' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU111' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU117' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU123' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU129' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU135' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU141' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU147' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU153' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU159' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU165' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU171' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU177' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU183' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU201' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU207' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU213' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU219' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU225' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU231' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU237' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU243' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU249' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU255' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU261' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU267' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU273' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU2967' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU2973' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU2979' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU2985' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU2991' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU2997' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU3003' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU3009' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU3015' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU3021' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU3027' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU3033' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU3038' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU3057' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU3063' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU3069' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU3075' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU3081' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU3087' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU3093' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU3099' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU3105' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU3111' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU3117' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU3123' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU3128' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU3233' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU3263' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU3552' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU3558' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/my_arctan_tilt/BU3564' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU111' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU117' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU123' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU129' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU135' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU141' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU147' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU153' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU159' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU165' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU171' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU177' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU183' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU201' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU207' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU213' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU219' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU225' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU231' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU237' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU243' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU249' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU255' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU261' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU267' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU273' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU2967' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU2973' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU2979' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU2985' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU2991' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU2997' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU3003' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU3009' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU3015' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU3021' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU3027' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU3033' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU3038' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU3057' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU3063' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU3069' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU3075' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU3081' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU3087' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU3093' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU3099' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU3105' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU3111' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU3117' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU3123' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU3128' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU3233' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU3263' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU3431' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU3437' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/arctac_pan/BU3546' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/tilt_div/BU141' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/tilt_div/BU280' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/tilt_div/BU422' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/tilt_div/BU564' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/tilt_div/BU706' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/tilt_div/BU848' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/tilt_div/BU990' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/tilt_div/BU1132' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/tilt_div/BU1274' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/tilt_div/BU1416' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/tilt_div/BU1558' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/tilt_div/BU1700' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/tilt_div/BU1839' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/tilt_div/BU1980' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/tilt_div/BU2123' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/tilt_div/BU2268' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/tilt_div/BU2415' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/tilt_div/BU2564' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/tilt_div/BU2715' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/tilt_div/BU2794' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/tilt_div/BU2800' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/tilt_div/BU2806' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/tilt_div/BU2812' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/tilt_div/BU2818' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/tilt_div/BU2824' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/tilt_div/BU2830' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/tilt_div/BU2836' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/tilt_div/BU2842' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/tilt_div/BU2848' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/tilt_div/BU2854' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/tilt_div/BU2860' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/tilt_div/BU2868' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/tilt_div/BU2918' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/tilt_div/BU2920' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/tilt_div/BU2922' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/tilt_div/BU2924' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/tilt_div/BU2926' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/tilt_div/BU2928' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/tilt_div/BU2930' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/tilt_div/BU2932' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/tilt_div/BU2934' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/tilt_div/BU2936' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/tilt_div/BU2938' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/tilt_div/BU2940' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/pan_div/BU97' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/pan_div/BU191' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/pan_div/BU367' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/pan_div/BU506' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/pan_div/BU648' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/pan_div/BU790' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/pan_div/BU932' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/pan_div/BU1074' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/pan_div/BU1216' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/pan_div/BU1358' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/pan_div/BU1500' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/pan_div/BU1642' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/pan_div/BU1784' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/pan_div/BU1926' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/pan_div/BU2065' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/pan_div/BU2206' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/pan_div/BU2349' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/pan_div/BU2494' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/pan_div/BU2641' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/pan_div/BU2790' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/pan_div/BU2941' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/pan_div/BU3020' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/pan_div/BU3026' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/pan_div/BU3032' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/pan_div/BU3038' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/pan_div/BU3044' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/pan_div/BU3050' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/pan_div/BU3056' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/pan_div/BU3062' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/pan_div/BU3068' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/pan_div/BU3074' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/pan_div/BU3080' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/pan_div/BU3086' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/pan_div/BU3094' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/pan_div/BU3144' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/pan_div/BU3146' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/pan_div/BU3148' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/pan_div/BU3150' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/pan_div/BU3152' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/pan_div/BU3154' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/pan_div/BU3156' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/pan_div/BU3158' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/pan_div/BU3160' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/pan_div/BU3162' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/pan_div/BU3164' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/pan_div/BU3166' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/pan_div/BU3389' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/pan_div/BU3395' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/pan_div/BU3406' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'my_calc/pan_div/BU3468' has unconnected
+   output pin
+WARNING:NgdBuild:470 - bidirect pad net 'user3<28>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user3<4>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user3<29>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user3<5>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user3<6>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user3<7>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user3<8>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user3<9>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'daughtercard<10>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'flash_data<10>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'daughtercard<11>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'flash_data<11>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'daughtercard<12>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'flash_data<12>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'daughtercard<13>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'flash_data<13>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'daughtercard<14>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'flash_data<14>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'daughtercard<15>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'daughtercard<20>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'flash_data<15>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'daughtercard<21>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'daughtercard<16>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'daughtercard<22>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'daughtercard<17>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'daughtercard<18>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'daughtercard<23>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'flash_data<0>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'daughtercard<19>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'daughtercard<24>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'flash_data<1>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user2<10>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'daughtercard<25>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'daughtercard<30>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'flash_data<2>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user2<11>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'daughtercard<31>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'daughtercard<26>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'flash_data<3>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user2<12>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'daughtercard<32>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'daughtercard<27>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'flash_data<4>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user2<13>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'daughtercard<33>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'daughtercard<28>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'flash_data<5>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user4<0>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user2<14>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'daughtercard<34>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'daughtercard<29>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'flash_data<6>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user4<1>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user2<15>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user2<20>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'daughtercard<40>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'daughtercard<35>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'flash_data<7>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user4<2>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user2<16>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user2<21>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'daughtercard<41>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'daughtercard<36>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'flash_data<8>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user1<0>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user4<3>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user2<22>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user2<17>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'daughtercard<37>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'daughtercard<42>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'flash_data<9>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user1<1>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user4<4>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user2<23>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user2<18>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'daughtercard<38>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'daughtercard<43>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user1<2>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user4<5>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user2<24>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user2<19>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'daughtercard<39>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user1<3>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user4<6>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user2<30>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user2<25>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user1<4>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user4<7>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user2<31>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user2<26>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user1<5>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user4<8>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user2<27>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user1<6>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user4<9>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user2<28>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user1<7>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user2<29>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user1<8>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user1<9>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'daughtercard<0>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user4<10>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'daughtercard<1>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user4<11>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'daughtercard<2>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user4<12>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'daughtercard<3>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user4<13>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'daughtercard<4>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user4<14>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'daughtercard<5>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user4<20>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user4<15>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'daughtercard<6>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user4<16>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user4<21>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'ram1_data<10>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'daughtercard<7>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user4<22>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user4<17>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'ram1_data<11>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'daughtercard<8>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user4<23>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user4<18>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'ram1_data<12>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'daughtercard<9>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user4<19>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user4<24>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'ram1_data<13>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'systemace_data<0>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user4<30>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user4<25>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'ram1_data<14>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'systemace_data<1>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user4<26>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'ram1_data<20>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'systemace_data<2>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'ram1_data<15>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user4<27>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'systemace_data<3>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'ram1_data<16>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'ram1_data<21>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user4<28>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'ram1_data<22>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'systemace_data<4>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'ram1_data<17>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user1<10>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user4<29>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'ram1_data<23>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'systemace_data<5>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'ram1_data<18>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user2<0>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user1<11>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'ram1_data<24>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'systemace_data<6>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'ram1_data<19>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user2<1>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user1<12>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'systemace_data<7>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'ram1_data<25>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'ram1_data<30>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user2<2>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user1<13>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'ram1_data<31>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'systemace_data<8>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'ram1_data<26>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user2<3>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user1<14>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'ram1_data<32>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'systemace_data<9>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'ram1_data<27>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user2<4>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user1<15>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user1<20>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'ram1_data<28>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'ram1_data<33>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'ram1_data<0>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user2<5>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user1<21>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user1<16>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'ram1_data<29>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'ram1_data<34>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'ram1_data<1>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user2<6>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user1<17>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user1<22>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'ram1_data<35>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'ram1_data<2>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user2<7>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user1<18>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user1<23>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'ram1_data<3>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'systemace_data<10>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user2<8>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user1<24>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user1<19>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'ram1_data<4>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'systemace_data<11>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user2<9>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user1<25>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user1<30>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'ram1_data<5>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'systemace_data<12>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user1<26>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user1<31>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'ram1_data<6>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'systemace_data<13>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user1<27>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'ram1_data<7>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'systemace_data<14>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user1<28>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'ram1_data<8>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'systemace_data<15>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user1<29>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'ram1_data<9>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user3<10>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user3<11>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user3<12>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user3<13>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user3<14>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user3<20>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user3<15>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user3<21>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user3<16>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user3<22>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user3<17>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user3<23>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user3<18>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user3<24>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user3<19>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user3<0>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user3<30>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user3<25>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user3<1>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user3<31>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user3<26>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user3<2>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user3<27>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'user3<3>' has no legal driver
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings: 507
+
+Total memory usage is 300780 kilobytes
+
+Writing NGD file "labkit.ngd" ...
+
+Writing NGDBUILD log file "labkit.bld"...

@@ -1,0 +1,3 @@
+ngdbuild -ise "/afs/athena.mit.edu/user/m/i/miren/Desktop/6.111/final project/tracking_dmx/tracking_DMX.ise" -intstyle ise -dd _ngo  -aul -nt timestamp -i -p xc2v6000-bf957-4 "pan_divider.ngc" pan_divider.ngd
+ngdbuild -ise "/afs/athena.mit.edu/user/m/i/miren/Desktop/6.111/final project/tracking_dmx/tracking_DMX.ise" -intstyle ise -dd _ngo  -aul -nt timestamp -i -p xc2v6000-bf957-4 "pan_divider.ngc" pan_divider.ngd
+ngdbuild -ise "/afs/athena.mit.edu/user/m/i/miren/Desktop/6.111/final project/tracking_dmx/tracking_DMX.ise" -intstyle ise -dd _ngo  -aul -nt timestamp -i -p xc2v6000-bf957-4 "pan_divider.ngc" pan_divider.ngd

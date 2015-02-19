@@ -1,0 +1,5 @@
+verilog work "./tilt_sqrt.v"
+verilog work "sqrt_wrapper.v"
+verilog work "./arctan_tilt_new.v"
+verilog work "./arctan.v"
+verilog work "unpiped_calc.v"

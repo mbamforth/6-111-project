@@ -1,0 +1,9 @@
+# Output products list for <arctan>
+arctan.asy
+arctan.ngc
+arctan.sym
+arctan.v
+arctan.veo
+arctan.xco
+arctan_flist.txt
+arctan_xmdf.tcl
